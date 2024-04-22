@@ -14,8 +14,7 @@ import java.util.List;
 @Service
 public class UserServiceImp implements UserService {
 
-    @Autowired
-    private SessionFactory sessionFactory;
+
 
     @Autowired
     private UserDao userDao;
